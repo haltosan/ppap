@@ -1,12 +1,13 @@
 # PPAP
 
 PiPineappleApplePi or PentestPiAccessPoint
+
 This project is a really easy hotspot creator and traffic logger. It creates a hotspot (of any name and password) for client to 
 connect to. My purpose for this is to have a connection point for a deployed pi.
 
-## Getting Started
+# Getting Started
 
-# Prerequisites
+## Prerequisites
 
 The system this was desighned for was kali linux. The required tools are as follows:
 *For the startAP and stopAP*
