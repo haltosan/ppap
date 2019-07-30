@@ -75,6 +75,8 @@ relative to run. The files will be in the pcapng format, and can be opened with 
 
 The individual part of the project can be use independantly, and should be used when the other is not needed.
 
+For additional information on the nmcli commands, see: https://fedoraproject.org/wiki/Networking/CLI
+
 ## Licence
 
 This project is licenced under the GNU General Public License. See LICENCE.md file for details.
