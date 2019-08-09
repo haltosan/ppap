@@ -34,7 +34,7 @@ bash startAP.sh [interface] [essid] [passwd]
 The parameters are as follows:
 * interface: The interface to broadcast with
 * essid: The essid to broadcast
-* passwd: The password of the point. Put - to have no password
+* passwd: The password of the point (needs to be provided)
 
 To stop the AP, run:
 ```
