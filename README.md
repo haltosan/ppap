@@ -10,6 +10,7 @@ connect to. My purpose for this is to have a connection point for a deployed pi.
 ## Prerequisites
 
 The system this was designed for was kali linux. The required tools are as follows:
+
 *For the startAP and stopAP*
 * nmcli (part of NetworkManager)
 
@@ -63,7 +64,7 @@ The parameters are as follows:
 
 Example run:
 ```
-bash sniff.sh wlan1 day1 60
+bash sniff.sh wlan1 day1 3600
 ```
 
 This sniffs on the interface wlan1 (the broadcast), begins each file with day1, and each file is an hour of captures.
