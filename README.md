@@ -71,7 +71,7 @@ This sniffs on the interface wlan1 (the broadcast), begins each file with day1, 
 
 ## Notes
  
-The sniff program outputs to the 'out' directory. Each file will begin with the file name chosen at run, followed by a timestamp 
+The sniff program outputs to the 'log' directory. Each file will begin with the file name chosen at run, followed by a timestamp 
 relative to run. The files will be in the pcapng format, and can be opened with wireshark for reading. 
 
 The individual part of the project can be use independently, and should be used when the other is not needed.
