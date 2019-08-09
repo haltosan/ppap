@@ -5,7 +5,7 @@ if [ $# -eq 0 ]; then
     echo "usage: bash $0 [interface] [essid] [passwd]"
     exit 1
 fi
-if [ $1 == "-h"]; then
+if [ $1 == "--help"]; then
     echo "usage: bash $0 [interface] [essid] [passwd]"
     exit 0
 fi
@@ -19,4 +19,5 @@ nmcli connection modify broadcast wifi-sec.psk $3
 nmcli connection up broadcast
 
 echo "Run stopAP to end the connection"
+
 exit 0
