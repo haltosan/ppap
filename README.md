@@ -2,7 +2,7 @@
 
 PiPineappleApplePi or PentestPiAccessPoint
 
-This project is a really easy hotspot creator and traffic logger. It creates a hotspot (of any name and password) for client to 
+This project is a really easy hotspot creator and traffic logger. It creates a hotspot (of any name and password) for clients to 
 connect to. My purpose for this is to have a connection point for a deployed pi.
 
 # Getting Started
@@ -34,7 +34,7 @@ bash startAP.sh [interface] [essid] [passwd]
 The parameters are as follows:
 * interface: The interface to broadcast with
 * essid: The essid to broadcast
-* passwd: The password of the point (needs to be provided)
+* passwd: The password of the point (- for no password)
 
 To stop the AP, run:
 ```
@@ -54,11 +54,11 @@ This follows the connection wizard, creates an open point called FREEWIFI on wla
  
 To use the traffic logging, run the following:
 ```
-bash sniff.sh [int] [file name] [cap len sec]
+bash sniff.sh [interface] [file name] [cap len sec]
 ```
 
 The parameters are as follows:
-* int: The interface to log. This should be the broadcast interface.
+* interface: The interface to log. This should be the broadcast interface.
 * file name: The prefix for the logging files for this run.
 * cap len sec: How many seconds each cap file should cover.
 
@@ -74,7 +74,7 @@ This sniffs on the interface wlan1 (the broadcast), begins each file with day1, 
 The sniff program outputs to the 'log' directory. Each file will begin with the file name chosen at run, followed by a timestamp 
 relative to run. The files will be in the pcapng format, and can be opened with wireshark for reading. 
 
-The individual part of the project can be use independently, and should be used when the other is not needed.
+Each script can be used on its own, so please steal my stuff.
 
 For additional information on the nmcli commands, see: https://fedoraproject.org/wiki/Networking/CLI
 
