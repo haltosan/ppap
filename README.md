@@ -21,11 +21,6 @@ The system this was designed for was kali linux. The required tools are as follo
 
 ### AP
 
-To scan for APs and connect, run:
-```
-bash connect.sh
-```
-
 To start the AP, run:
 ```
 bash startAP.sh [interface] [essid] [passwd]
@@ -51,6 +46,8 @@ bash stopAP.sh
 This follows the connection wizard, creates an open point called FREEWIFI on wlan1, then stops it.
  
 ### Sniff
+
+You'll probably want to create a 'log' directory. The sniff tool will automatically output to ./log/
  
 To use the traffic logging, run the following:
 ```
