@@ -1,6 +1,6 @@
 # PPAP
 
-PiPineappleApplePi or PentestPiAccessPoint
+Pi-Pineapple-Apple-Pi or PentestPiAccessPoint
 
 This project is a really easy hotspot creator and traffic logger. It creates a hotspot (of any name and password) for clients to 
 connect to. My purpose for this is to have a connection point for a deployed pi.
